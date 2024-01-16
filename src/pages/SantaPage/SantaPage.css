@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Montserrat;    
+}
+
+body {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #171616;
+}
+
+@media screen and (max-width: 428px) {
+    .header {
+        display: flex;
+        width: 100%;
+        padding: 24px;
+        align-items: center;
+        gap: 10px;
+        background: #1E1E1E;
+    }
+
+    .title {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .chatgpt {
+        display: flex;
+        gap: 10px;
+        margin-left: 24px;
+        margin-top: 11px;
+        margin-bottom: 5px;
+        align-items: center;
+    }
+
+    .chatgpt-title {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 7px;
+    }
+
+    .chatgpt-answer {
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-left: 24px;
+    }
+
+    .chatgpt-user {
+        display: flex;
+        gap: 10px;
+        margin-left: 24px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+        align-items: center;
+    }
+
+    .chatgpt-user-title {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 7px;
+    }
+
+    .input-message {
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background: #1E1E1E;
+        padding: 24px ;
+    }
+    
+    .input input {
+        background-color: #1E1E1E;
+        border: none;
+        outline: none;
+
+    }
+
+    .gpt-avatar_santa { 
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .gpt {
+        margin-left: 20px;
+    }
+
+    .user-avatar {
+        display: flex;
+        gap: 10px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .you {
+        margin-left: 20px;
+    }
+}   

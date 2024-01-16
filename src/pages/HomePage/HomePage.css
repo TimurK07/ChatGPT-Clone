@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: Montserrat;    
+}
+
+body {
+    background: #171616;
+}
+
+.mobile {
+    display: none;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.title {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.subtitle {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+@media screen and (max-width: 428px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .header {
+        display: flex;
+        width: 428px;
+        padding: 24px;
+        align-items: center;
+        gap: 10px;
+        background: #1E1E1E;
+    }
+
+    .title {
+        color: #FFF;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    .section {
+        display: flex;
+        padding: 30px 0;
+        align-items: center;
+        gap: 10px;
+        background: #1E1E1E;
+        margin-top: 12px;
+    }
+
+    .section-choose {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon {
+        padding-left: 24px;
+    }
+
+    .choose-title {
+        color: #FFF;
+            font-family: Montserrat;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+    }
+
+    .choose-subtitle {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: Montserrat;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    a {
+        text-decoration: none;
+    }
+}
